@@ -1,0 +1,1 @@
+nohup gunicorn -t 1200 -w 1 -b 0.0.0.0:2601 run_deploy:app > deploy.logs &
