@@ -229,9 +229,9 @@ python run_train.py \
 ```
 ### Logs in Training Phase
 
-![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/train_1.png)
+![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/train_1.jpg)
 
-![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/train_2.png)
+![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/train_2.jpg)
 
 **Both tag accuracy and sentence accuracy are printed during the training phase.** 
 
@@ -299,7 +299,7 @@ Examples can be seen in `./examples/test_example`. Simply run `bash run_test.sh`
 
 ### Logs in Testing Phase
 
-![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/test.png)
+![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/test.jpg)
 
 ## Deploying
 
@@ -322,9 +322,9 @@ Then run the file `usage.ipynb` or type `your_ip:2601/?s=your_text` in browser t
 
 ### Logs in Deploying Phase
 
-![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/deploy_1.png)
+![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/deploy_1.jpg)
 
-![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/deploy_2.png)
+![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/deploy_2.jpg)
 
 ## Some Chinese Pretrained Language Model
 
