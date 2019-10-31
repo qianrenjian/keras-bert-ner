@@ -227,6 +227,11 @@ python run_train.py \
     -learning_rate=5e-5 \
     -albert
 ```
+### Logs in Training Phase
+
+![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/train_1.png)
+
+![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/train_2.png)
 
 **Both tag accuracy and sentence accuracy are printed during the training phase.** 
 
@@ -292,6 +297,10 @@ Action Configs:
 
 Examples can be seen in `./examples/test_example`. Simply run `bash run_test.sh` to start testing.
 
+### Logs in Testing Phase
+
+![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/test.png)
+
 ## Deploying
 
 ### Example
@@ -310,6 +319,12 @@ Then run the file `usage.ipynb` or type `your_ip:2601/?s=your_text` in browser t
 | :-----------------: | :-----: | :---------: |
 |  Memory Usage (G)   |  3.72   |    0.89     |
 | Inference Time (ms) |   180   |     300     |
+
+### Logs in Deploying Phase
+
+![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/deploy_1.png)
+
+![img](https://github.com/liushaoweihua/keras-bert-ner/blob/master/pictures/deploy_2.png)
 
 ## Some Chinese Pretrained Language Model
 
